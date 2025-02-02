@@ -3,7 +3,10 @@
     "target": "ES6",
     "module": "CommonJS",
     "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "strict": true,
+    "strictPropertyInitialization": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "./dist"
